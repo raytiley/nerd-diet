@@ -9,5 +9,7 @@ layout: default
     <p class="blog-post-meta">{{ post.date | date: '%B %d, %Y' }}</p>
 
     {{post.content}}
+
+    <a href="{{post.url}}">View the full article to comment</a>
   </div>
 {% endfor %}
